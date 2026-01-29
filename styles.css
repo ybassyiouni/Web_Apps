@@ -278,6 +278,10 @@ iframe {
         padding: 15px;
     }
 
+    .image-gallery img {
+        max-width: 100%;
+    }
+
     input[type="submit"] {
         width: 100%;
     }
