@@ -108,6 +108,7 @@ a:hover {
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border: 1px solid #16213e;
+    overflow: hidden;
 }
 
 header {
@@ -175,6 +176,7 @@ img {
 }
 
 .image-gallery img {
+    width: 100%;
     max-width: 400px;
     object-fit: cover;
 }
