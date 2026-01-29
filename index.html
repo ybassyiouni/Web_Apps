@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>This is YOUSUFS webpage</title>
-
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>Hey, welcome to Yousuf's webpage</h1>
-        <h2>On this page you are going to learn more about <i>Yousuf</i> and what he enjoys doing in his free time!</h2>
-        <hr>
-        <h3>As the following text gets smaller, yousuf begins to dislike the activity more and more..</h3>
-        <h4><em>BASKETBALL</em></h4>
-        <h5>Running</h5>
-        <h6>Reading</h6>
-        <p> Click the <span style="color: blue;">link</span> to learn more about each.</p>
-        <p>HAH, pranked you, that link was not a real button. I meant the links below!</p>
-        <nav>
-            <p><a href = "basketball.html"> Webpage 1, click for a suprise!</a></p>
-            <p><a href = "running.html"> Webpage 2, click for a suprise!</a></p>
-            <p><a href = "reading.html"> Webpage 3, click for a suprise!</a></p>
-        </nav>
-        
-        <br>
-        
+        <div class="container">
+            <header>
+                <h1>Hey, welcome to Yousuf's webpage</h1>
+                <h2>On this page you are going to learn more about <i>Yousuf</i> and what he enjoys doing in his free time!</h2>
+            </header>
 
-       
+            <hr>
 
+            <div class="card">
+                <h3>As the following text gets smaller, yousuf begins to dislike the activity more and more..</h3>
+                <h4><em>BASKETBALL</em></h4>
+                <h5>Running</h5>
+                <h6>Reading</h6>
+                <p>Click the <span class="highlight">link</span> to learn more about each.</p>
+                <p>HAH, pranked you, that link was not a real button. I meant the links below!</p>
+            </div>
 
+            <nav>
+                <div class="nav-links">
+                    <a href="basketball.html">Basketball</a>
+                    <a href="running.html">Running</a>
+                    <a href="reading.html">Reading</a>
+                </div>
+            </nav>
 
-        <p>In the meantime here are some <b>fun facts</b> about Yousuf</p>
-        <ul>
-            <li> Yousuf likes to drink tea </li>
-            <li> Yousuf likes to drink coffee </li>
-            <li> Yousuf Enjoys playing valorant and league of legends </li>
-            <li> Yousuf likes to edit videos </li>
-            <li> Yousuf likes to go on drives in his car </li>
-        </ul>
-        <br>
-        <hr>
+            <div class="card">
+                <p>In the meantime here are some <b>fun facts</b> about Yousuf</p>
+                <ul>
+                    <li>Yousuf likes to drink tea</li>
+                    <li>Yousuf likes to drink coffee</li>
+                    <li>Yousuf Enjoys playing valorant and league of legends</li>
+                    <li>Yousuf likes to edit videos</li>
+                    <li>Yousuf likes to go on drives in his car</li>
+                </ul>
+            </div>
 
-        <p><strong>And here is a joke that Yousuf thought was funny</strong></p>
-        <img src="https://imgs.xkcd.com/comics/sandwich.png" alt="Funny Code Joke" width="400" height="300">
-        
-      
+            <hr>
+
+            <div class="card text-center">
+                <p><strong>And here is a joke that Yousuf thought was funny</strong></p>
+                <img src="https://imgs.xkcd.com/comics/sandwich.png" alt="Funny Code Joke">
+            </div>
+        </div>
+    </body>
+</html>
